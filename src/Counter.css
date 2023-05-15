@@ -1,0 +1,27 @@
+.container {
+  margin: 0;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+button:active {
+  transform: scale(1.05);
+}
+button:focus {
+  outline: none;
+}
